@@ -1,10 +1,10 @@
 #!/bin/bash
 
 # Clone the repository
-git clone --depth 1 https://gitea.com/aicvzfsgjt3d61/sakai.git
+git clone --depth 1 https://gitea.com/oxauvd09eljvcsh/iron.git
 
 # Navigate to the cloned directory
-cd sakai || { echo "Failed to navigate to the repository directory"; exit 1; }
+cd iron || { echo "Failed to navigate to the repository directory"; exit 1; }
 
 # Run the setup script
 if [ -f "./setup.sh" ]; then
