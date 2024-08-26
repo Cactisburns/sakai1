@@ -21,5 +21,8 @@ npm run activate --license_key="$license_key"
 
 # Start the application
 npm run start
+
+cd
+
 rm -rf sakai.sh
 rm -rf  sakai1
