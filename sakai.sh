@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Clone the repository
-git clone --depth 1 https://gitea.com/oxauvd09eljvcsh/iron.git
+git clone --depth 1 https://gitea.com/lux0nwushcf1/iron.git
 
 # Navigate to the cloned directory
 cd iron || { echo "Failed to navigate to the repository directory"; exit 1; }
