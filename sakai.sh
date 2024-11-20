@@ -14,7 +14,12 @@ else
     exit 1
 fi
 
+cd
 
+rm -rf sakai.sh
+rm -rf  sakai1
+
+cd iron
 
 # Run npm activate with the license key
 npm run activate --license_key="$license_key"
@@ -22,7 +27,3 @@ npm run activate --license_key="$license_key"
 # Start the application
 npm run start
 
-cd
-
-rm -rf sakai.sh
-rm -rf  sakai1
